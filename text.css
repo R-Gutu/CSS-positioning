@@ -1,0 +1,47 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.static {
+  border: 1px dashed black;
+}
+
+.parent {
+  border: 2px solid red;
+  height: 100px;
+}
+
+.child {
+  width: 50%;
+  height: 50px;
+  border: 2px solid green;
+}
+
+.relative-parent {
+  top: 20px;
+  left: 20px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sticky-parent {
+  position: sticky;
+  top: 0;
+  border: 2px solid yellow;
+}
